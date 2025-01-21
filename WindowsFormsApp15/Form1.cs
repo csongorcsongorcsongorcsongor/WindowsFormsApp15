@@ -21,6 +21,8 @@ namespace WindowsFormsApp15
         {
             szamitogep one = new szamitogep() { type = "hp", size = 16, os = "win", name = "igusdfahgfda", cost = 432424 };
             szamitogep two = new szamitogep() { type = "dell", size = 32, os = "win2", name="dell", cost = 327815 };
+            one.Left = 10;
+            two.Left = 100;
             Controls.Add(one);
             Controls.Add(two);
 

@@ -31,7 +31,7 @@ namespace WindowsFormsApp15
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(361, 184);
+            this.button1.Location = new System.Drawing.Point(10, 10);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -42,7 +42,7 @@ namespace WindowsFormsApp15
             // 
             this.Controls.Add(this.button1);
             this.Name = "aru";
-            this.Size = new System.Drawing.Size(644, 354);
+            this.Size = new System.Drawing.Size(75, 50);
             this.ResumeLayout(false);
             this.button1.Click += ClickEvent;
             button1.Text = $"Nev: {name}";
