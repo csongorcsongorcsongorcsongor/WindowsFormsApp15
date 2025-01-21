@@ -17,10 +17,11 @@ namespace WindowsFormsApp15
         public string os { get; set; }
         public szamitogep()
         {
-
         }
         public override void ClickEvent(object s, EventArgs e)
         {
+            button1.Text = $"{name}";
+
             MessageBox.Show($"Típus: {type}, Memoria: {size}, OS: {os}, Ár: {cost}");
         }
     }

@@ -19,6 +19,7 @@ namespace WindowsFormsApp15
         public aru()
         {
             InitializeComponent();
+
         }
         public virtual void ClickEvent(Object s, EventArgs e)
         {
